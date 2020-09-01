@@ -34,11 +34,6 @@ ui <- dashboardPage(
           )
       )
     )
-    , fluidRow(
-      box(width = 12, status = "primary", title = "Dataset"
-          , DTOutput("dt_output")
-      )
-    )
   )
 )
 
